@@ -28,11 +28,13 @@ const Container = styled.div`
         width: 5rem;
         display: flex;
         justify-content: space-around;
-
+        align-items: center;
+        margin-right: 30px;
         button {
+          margin-left: 15px;
           background-color: white;
-          padding: 0.3rem;
-          border-radius: 10px;
+          padding: 0.5rem 1.3rem;
+          border-radius: 13px;
           border: 1px solid rgba(225, 225, 225, 0.67);
         }
       }
